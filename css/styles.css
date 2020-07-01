@@ -1,0 +1,54 @@
+#para{
+	background-color: yellow;
+	color: green;
+}
+.para{
+	background-color: #ddd
+	color: green;
+}
+#paragraph{
+	background-color: #ddd;
+	color: green;
+}
+.first,.second,.third,.fourth{
+	border: 2px solid #000;
+	margin: 2px;
+	width: 400px;
+	text-align: center;
+}
+/*.first img,.second img,.third img,.fouth img{
+	width: 200px;
+}*/
+img{
+	width: 200px;
+	padding: 10px;
+}
+.parent{
+	display: flex;
+	flex-direction: 
+}
+/*media quiries for mobile view*/
+@media screen and (max-width: 425px) {
+	.parent{
+		flex-direction: column;
+	}
+	.first,.second,.third,.fourth{
+		background-color: #c45e45;
+	
+	}
+}
+/*tablet media quiry*/
+@media screen and (min-width: 426px) and (max-width: 768px) {
+	.parent{
+		flex-direction: row-reverse;
+		justify-content: space-between;
+	}
+	.first,.second,.third,.fourth{
+		border:2px solid #000;
+		margin: 2px;
+		background-color: #ddd;
+		border-radius: 20px;
+	width: 300px;	
+		
+	}
+}
